@@ -4,8 +4,8 @@
 
 # Site
 title: Cartas de Mamá Antula
-subtitle: Correspondencia de la sierva de dios y en torno a su figura
-description: 
+subtitle: Correspondencia de la sierva de dios
+description:
 author: Venerable Maria Antonia de Paz y Figueroa
 language: es
   - fr
@@ -47,7 +47,7 @@ highlight:
   tab_replace: true
 
 # Category & Tag
-default_category: uncategorized
+default_category: correspondencia
 category_map:
 tag_map:
 
