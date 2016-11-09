@@ -66,7 +66,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: clean-blog
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -75,3 +75,9 @@ deploy:
 
 html_minifier:
   exclude: 
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: false
+  hub:
