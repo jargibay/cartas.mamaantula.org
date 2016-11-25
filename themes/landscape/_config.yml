@@ -1,7 +1,9 @@
 # Header
 menu:
   Home: /
-  Archives: /archives
+  Cartas: /Cartas
+  Vida y Obras: /Vida
+
 rss: /atom.xml
 
 # Content
@@ -12,16 +14,16 @@ fancybox: true
 sidebar: right
 widgets:
 - category
-- tag
+# - tag
 - tagcloud
 - archive
-- recent_posts
+# - recent_posts
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
-# - category
+  - category
 # - tagcloud
-# - archive
+  - archive
 
 # widget behavior
 archive_type: 'monthly'
