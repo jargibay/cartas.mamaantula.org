@@ -71,13 +71,32 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
-
-html_minifier:
-  exclude: 
+  type: s3
+  bucket: cartas
+  concurrency: 5
 
 feed:
   type: atom
   path: atom.xml
-  limit: false
-  hub:
+  limit: 20
+
+generator_amp:
+  templateDir: amp-template
+  assetDistDir: amp-dist
+  logo:
+    path: sample/sample-logo.png
+    width: 600
+    height: 60
+  substituteTitleImage: 
+    path: sample/sample-substituteTitleImage.png
+    width: 1024
+    height: 800
+
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true

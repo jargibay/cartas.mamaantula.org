@@ -1,8 +1,7 @@
 # Header
 menu:
-  Home: /
-  Cartas: /Cartas
-  Vida y Obras: /Vida
+  Home: http://www.argibay.org/
+  Cartas: /
 
 rss: /atom.xml
 
@@ -22,7 +21,7 @@ widgets:
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
   - category
-# - tagcloud
+  - tagcloud
   - archive
 
 # widget behavior
