@@ -1,7 +1,14 @@
 # Header
 menu:
   Home: http://www.argibay.org/
-  Cartas: /
+  Quienes Somos: http://www.argibay.org/nosotros/
+  Vida: /vida/
+  Obra: /obra/
+  Cartas: /cartas/
+  Prensa: /prensa/
+  Artículos: /articulos/
+  Redes Sociales: /sociales/
+  Contacto: /contacto/
 
 rss: /atom.xml
 
@@ -17,6 +24,7 @@ widgets:
 - tagcloud
 - archive
 # - recent_posts
+- toc
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -29,7 +37,7 @@ archive_type: 'monthly'
 show_count: false
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-88860633-1
 favicon: /favicon.png
 twitter:
 google_plus:
