@@ -69,6 +69,25 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: hueman
 
+# Customize
+customize:
+    header-background-image: "http://media.argibay.org/background/02_Foto350x1450.jpeg"
+    header-background-image-lowres: "http://media.argibay.org/background/02_Foto500x500px.jpeg"
+    logo:
+        width: 100%
+        height: 100%
+        url: http://media.argibay.org/logo/logo%20MAMA%20ANTULA%20Blanco.svg
+    theme_color: '#d5c28a'
+    highlight: androidstudio
+    sidebar: right # sidebar position, options: left, right
+    thumbnail: false # enable posts thumbnail, options: true, false
+    favicon: /media/MAMA%20ANTULA-logo.svg # path to favicon
+    social_links: # for more icons, please see http://fontawesome.io/icons/#brand
+        twitter: /
+        facebook: /
+        google-plus: /
+        rss: /
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
@@ -80,18 +99,6 @@ feed:
   type: atom
   path: atom.xml
   limit: 20
-
-generator_amp:
-  templateDir: amp-template
-  assetDistDir: amp-dist
-  logo:
-    path: sample/sample-logo.png
-    width: 600
-    height: 60
-  substituteTitleImage:
-    path: sample/sample-substituteTitleImage.png
-    width: 1024
-    height: 800
 
 marked:
   gfm: true
